@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Esame" max_length="40" name="x_570205_rendicont_esame" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Nome esame" max_length="100" name="nome_esame" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Codice esame" max_length="40" name="u_codice_esame" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IA" sequence="0" value="ia"/>
+                <element inactive_on_update="false" label="IB" sequence="1" value="ib"/>
+                <element inactive_on_update="false" label="S" sequence="2" value="s"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="200" name="u_description" type="string"/>
+        <element attributes="encode_utf8=false" label="Professore" max_length="32" name="u_professore" reference="x_570205_rendicont_professore" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Programma" max_length="2000" name="u_programma" type="string"/>
+        <index name="index">
+            <element name="u_professore"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

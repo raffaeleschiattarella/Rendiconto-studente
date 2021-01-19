@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1a633c2d2fb520106465b6a62799b6d0" sys_domain="global" table="x_570205_rendicont_studente" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:46:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56633c2d2fb520106465b6a62799b6d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570205_rendicont_studente" name="x_570205_rendicont_studente" sys_domain="global" view="Default view">1a633c2d2fb520106465b6a62799b6d0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_570205_rendicont_studente" sys_domain="global" view="Default view">422ea4692fb520106465b6a62799b65b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:46:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:46:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52633c2d2fb520106465b6a62799b6d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_570205_rendicont_studente" name="x_570205_rendicont_studente" sys_domain="global" view="Default view">1a633c2d2fb520106465b6a62799b6d0</sys_ui_form>
+            <sys_ui_section caption="Esami sostenuti" display_value="Esami sostenuti" name="x_570205_rendicont_studente" sys_domain="global" view="Default view">5a633c2d2fb520106465b6a62799b65f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:46:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_570205_rendicont_studente</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:46:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a633c2d2fb520106465b6a62799b6d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570205_rendicont_studente</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rendiconto studenti" source="x_570205_rendicont">031aa0a52fb520106465b6a62799b6b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1a633c2d2fb520106465b6a62799b6d0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:46:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="facolta" table="x_570205_rendicont_studente" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>facolta</element>
+            <name>x_570205_rendicont_studente</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:08:12</sys_created_on>
+            <sys_id>22bae8a52fb520106465b6a62799b6e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>facolta</sys_name>
+            <sys_package display_value="Rendiconto studenti" source="x_570205_rendicont">031aa0a52fb520106465b6a62799b6b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</sys_scope>
+            <sys_update_name>sys_choice_x_570205_rendicont_studente_facolta</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:08:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facolta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria aerospaziale</label>
+            <language>en</language>
+            <name>x_570205_rendicont_studente</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:08:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2bae8a52fb520106465b6a62799b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:08:12</sys_updated_on>
+            <value>ingegneria_aerospaziale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facolta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ingegneria biomedica</label>
+            <language>en</language>
+            <name>x_570205_rendicont_studente</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:08:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2bae8a52fb520106465b6a62799b6e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:08:13</sys_updated_on>
+            <value>ingegneria_biomedica</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facolta</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Statistica</label>
+            <language>en</language>
+            <name>x_570205_rendicont_studente</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-18 22:08:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aabae8a52fb520106465b6a62799b6e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-18 22:08:13</sys_updated_on>
+            <value>statistica</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

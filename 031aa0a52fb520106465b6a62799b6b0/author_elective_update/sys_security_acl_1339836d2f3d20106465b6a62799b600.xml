@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_570205_rendicont_i_miei_esami</description>
+        <name>x_570205_rendicont_i_miei_esami</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 09:40:45</sys_created_on>
+        <sys_id>1339836d2f3d20106465b6a62799b600</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570205_rendicont_i_miei_esami</sys_name>
+        <sys_package display_value="Rendiconto studenti" source="x_570205_rendicont">031aa0a52fb520106465b6a62799b6b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</sys_scope>
+        <sys_update_name>sys_security_acl_1339836d2f3d20106465b6a62799b600</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 09:40:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</application>
+        <file_path/>
+        <instance_id>f6db0b29db1bb3c842b321c405961940</instance_id>
+        <instance_name>dev91846</instance_name>
+        <name>sys_security_acl_1339836d2f3d20106465b6a62799b600</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_570205_rendicont_i_miei_esami</description><name>x_570205_rendicont_i_miei_esami</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-01-19 09:40:45</sys_created_on><sys_id>1339836d2f3d20106465b6a62799b600</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_570205_rendicont_i_miei_esami</sys_name><sys_package display_value="Rendiconto studenti" source="x_570205_rendicont">031aa0a52fb520106465b6a62799b6b0</sys_package><sys_policy/><sys_scope display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</sys_scope><sys_update_name>sys_security_acl_1339836d2f3d20106465b6a62799b600</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-01-19 09:40:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1348078100</payload_hash>
+        <record_name>x_570205_rendicont_i_miei_esami</record_name>
+        <reverted_from/>
+        <source>4f1aa0a52fb520106465b6a62799b6b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 09:40:45</sys_created_on>
+        <sys_id>d739836d2f3d20106465b6a62799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1771a049cac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 09:40:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>1339836de03d2010241d0404382b5e02</update_guid>
+        <update_guid_history>1339836de03d2010241d0404382b5e02:-1348078100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-19 09:42:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1148dbc32a624b68966e1ecd0cab4424</sys_id>
+        <sys_metadata>1339836d2f3d20106465b6a62799b600</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570205_rendicont_i_miei_esami</sys_name>
+        <sys_package display_value="Rendiconto studenti" source="x_570205_rendicont">031aa0a52fb520106465b6a62799b6b0</sys_package>
+        <sys_parent display_value="">1f39836d2f3d20106465b6a62799b605</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</sys_scope>
+        <sys_scope_delete display_value="">02396ae1034b4e4b9260dea078cb2b89</sys_scope_delete>
+        <sys_update_name>sys_security_acl_1339836d2f3d20106465b6a62799b600</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_1339836d2f3d20106465b6a62799b600">d739836d2f3d20106465b6a62799b602</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-19 09:42:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

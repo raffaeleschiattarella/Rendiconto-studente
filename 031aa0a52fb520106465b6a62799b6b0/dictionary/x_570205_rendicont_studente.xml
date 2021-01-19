@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Studente" max_length="40" name="x_570205_rendicont_studente" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data di nascita" max_length="40" name="data_di_nascita" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ingegneria_aerospaziale" label="Facoltà" max_length="40" name="facolta" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ingegneria aerospaziale" value="ingegneria_aerospaziale"/>
+                <element inactive_on_update="false" label="Ingegneria biomedica" value="ingegneria_biomedica"/>
+                <element inactive_on_update="false" label="Statistica" value="statistica"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome e cognome" max_length="40" name="nome_e_cognome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Nome esame 1" max_length="32" name="u_nome_esame" reference="x_570205_rendicont_esame" type="reference"/>
+        <element attributes="encode_utf8=false" label="Nome esame 2" max_length="32" name="u_nome_esame2" reference="x_570205_rendicont_esame" type="reference"/>
+        <element attributes="encode_utf8=false" dependent="facolta" dependent_on_field="facolta" label="Nome esame 3" max_length="32" name="u_nome_esame3" reference="x_570205_rendicont_esame" type="reference" use_dependent_field="true"/>
+        <element default="0" label="Risultato 1" max_length="40" name="u_risultato" type="integer"/>
+        <element default="0" label="Risultato 2" max_length="40" name="u_risultato2" type="integer"/>
+        <element default="0" label="Risultato 3" max_length="40" name="u_risultato3" type="integer"/>
+        <element default="0" label="Voto" max_length="40" name="u_voto" type="longint"/>
+        <index name="index">
+            <element name="u_nome_esame2"/>
+        </index>
+        <index name="index2">
+            <element name="u_nome_esame3"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index4">
+            <element name="u_nome_esame"/>
+        </index>
+    </element>
+</database>
