@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Studente" max_length="40" name="x_570205_rendicont_studente" type="collection">
+    <element label="Studente" max_length="40" name="x_570205_rendicont_studente" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Data di nascita" max_length="40" name="data_di_nascita" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="ingegneria_aerospaziale" label="Facoltà" max_length="40" name="facolta" type="choice">
             <choice>

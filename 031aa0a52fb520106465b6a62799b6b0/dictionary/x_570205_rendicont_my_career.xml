@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My career" max_length="40" name="x_570205_rendicont_my_career" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Esame" max_length="32" name="u_esame" reference="x_570205_rendicont_esame" type="reference"/>
+        <element attributes="encode_utf8=false" label="ID Studente" max_length="32" name="u_id_studente" reference="x_570205_rendicont_studente" type="reference"/>
+        <element default="0" label="Risultato" max_length="40" name="u_risultato" type="integer"/>
+        <element label="Superato" max_length="40" name="u_superato" type="boolean"/>
+        <index name="index">
+            <element name="u_id_studente"/>
+        </index>
+        <index name="index2">
+            <element name="u_esame"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

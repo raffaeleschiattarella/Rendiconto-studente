@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_id_studente" label="ID Studente" language="en" table="x_570205_rendicont_my_career">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_id_studente</element>
+            <help/>
+            <hint/>
+            <label>ID Studente</label>
+            <language>en</language>
+            <name>x_570205_rendicont_my_career</name>
+            <plural>ID Studentes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-19 11:12:21</sys_created_on>
+            <sys_id>c13e976d2f7d20106465b6a62799b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ID Studente</sys_name>
+            <sys_package display_value="Rendiconto studenti" source="x_570205_rendicont">031aa0a52fb520106465b6a62799b6b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rendiconto studenti">031aa0a52fb520106465b6a62799b6b0</sys_scope>
+            <sys_update_name>sys_documentation_x_570205_rendicont_my_career_u_id_studente_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-19 11:12:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
